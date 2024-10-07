@@ -154,7 +154,7 @@ if __name__ == "__main__":
         input_path = './input_images'  # or './input_video.mp4'
         
         # RGB offset to add (R, G, B)
-        rgb_offset = (20, 20, 20)
+        rgb_offset = (0, 0, 20)
         
         # Output folder or file
         output_path = './output_images'  # or './output_video.mp4'
@@ -169,11 +169,10 @@ if __name__ == "__main__":
         input_path = 'input_video/diamond.mp4'
         
         # RGB offset to add (R, G, B)
-        rgb_offset = (-10, -10, -10)
+        rgb_offset = (0, 0,20 )
         
         # Output path for the processed video (ensure it has the correct extension)
         output_path = './output_video/output_video.mp4'
         
         main(input_type, input_path, rgb_offset, output_path)
         print("process completed, check video in output video folder ")
-        
